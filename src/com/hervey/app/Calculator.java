@@ -5,21 +5,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Calculator {
-	
-	static List<BigDecimal> addingMachineTape = new ArrayList<BigDecimal>();
 
+	
 
 	public static void calculations() {
 
-		
-			BigDecimal firstNum = new BigDecimal("12.20");
-	BigDecimal secondNum = new BigDecimal("15.50");
-	
-	BigDecimal sumFirstSecond = firstNum.add(secondNum);
-	
-	 System.out.println("Result should be  27.70, and it is: " + sumFirstSecond);
-		
-		
+		BigDecimal firstNum = new BigDecimal("12.20");
+		BigDecimal secondNum = new BigDecimal("15.50");
+
+		BigDecimal sumFirstSecond = firstNum.add(secondNum);
+
+		System.out.println("Result should be  27.70, and it is: " + sumFirstSecond);
+
 	}
 
 }
